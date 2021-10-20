@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 10px;
+    padding:0;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-font-smoothing:antialiased;
+    -moz-font-smoothing:antialiased;
+    -o-font-smoothing:antialiased;
+}
+
+body {
+    font-family:"Open Sans", Helvetica, Arial, sans-serif;
+    font-weight:200;
+    font-size: 12px;
+    line-height:2px;
+}
+
+.container {
+    max-width:800px;
+    width:100%;
+    margin:0 auto;
+    /*height: 750px;*/
+    position:relative;
+    /*background:#F0E7E4;*/
+    /*background:#131919;*/
+    border: 2px solid #74BDCB;
+    color: #131919;
+}
+
+#matchtech {
+    height: 100%;
+    padding:2px;
+    margin:2px 0;
+}
+
+#matchtech h3 {
+	text-align: center;
+        font-family: 'Abril Fatface', cursive;
+        font-size: 2.5em;
+}
+
+#matchtech h4 {
+	color: rgb(244, 248, 6);
+	display: block;
+	font-size: 15px;
+	font-weight: 200;
+	text-align: left;
+}
+
+#matchtech label {
+	display:block;
+}
+
+fieldset {
+	border: medium none !important;
+	margin: 0 0 1px;
+	min-width: 100%;
+	padding: 2px;
+	width: 100%;
+}
+
+#matchtech input[type="text"], #matchtech input[type="email"] {
+    width:100%;
+    padding:2px;
+    border: none;
+    border-bottom: 2px solid #EFE7BC;
+    color:gray;
+}
+
+#matchtech input[type="submit"], #matchtech input[type="reset"] {
+    color: #808080;
+    border-radius: 5px; 
+    
+}
+
+#matchtech input[type="submit"]:hover, #matchtech input[type="reset"]:hover {
+    background: #FFA384;
+    color: #808080;
+}
+
+#matchtech input[type="text"]:hover, #matchtech input[type="email"]:hover {
+	-webkit-transition:border-color 0.3s ease-in-out;
+	-moz-transition:border-color 0.3s ease-in-out;
+	transition:border-color 0.3s ease-in-out;
+}
+
+#matchtech input:focus {
+	outline:0;
+	border:1px solid #999;
+}
+
+#matchtech input:placeholder{
+	color:gray;
+}
+::-webkit-input-placeholder {
+ color:gray;
+}
+:-moz-placeholder {
+ color:gray;
+}
+::-moz-placeholder {
+ color:gray;
+}
+:-ms-input-placeholder {
+ color:gray;
+}
+
+.cabecalho {
+  font-size: 13px;
+  align-content: center;
+  color: rgb(59, 153, 4);
+  font-weight: bold;
+  width: 100%;
+  padding: 2px;
+}
+
+/*=============================================================================*/
+/*     DEFINIÇÃO DAS PROPORÇÕES DAS JANELAS DE DADOS    (ORIGINAL)             */
+/*=============================================================================*/
+
+/*                     COLABORADOR          */
+.idcolaborador {
+    width: 5%;
+}
+.nomecolaborador {
+    width: 53%;    
+}
+.email {
+    width: 65%;
+}
+
+/*                          TAREFA            */
+.idtarefa {
+    width: 5%;
+}
+   
+.descrtarefa{
+    width: 52%;
+}
+
+.datainicio {
+    width: 25%;
+}
+
+.datafim {
+    width: 25%;
+}
+
+.horainicio {
+    width: 35%;
+}
+
+.horafim { 
+    width: 35%;
+}
+
+.idprioridade {
+    width: 5%;
+}
+
+.datahorafim:placeholder {
+	color:black;
+}
